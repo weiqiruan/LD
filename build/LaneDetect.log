@@ -1,0 +1,21 @@
+﻿生成启动时间为 3/8/2018 7:35:37 PM。
+     1>项目“F:\Users\visual studio 2013\Projects\Microvision\PDW\build\LaneDetect.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (..\build\) contains files shared from another project (autoCalib.vcxproj, LaneDetect.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\extra\include\opencv /I..\extra\include\opencv2 /I..\extra\include /I..\code /Zi /nologo /W4 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"..\build\\" /Fd"..\build\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\code\main.cpp
+         main.cpp
+     1>F:\Users\visual studio 2013\Projects\Microvision\PDW\extra\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\Users\visual studio 2013\Projects\Microvision\PDW\extra\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>F:\Users\visual studio 2013\Projects\Microvision\PDW\extra\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\build\PDW.exe" /INCREMENTAL /NOLOGO opencv_world300.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\build\PDW.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\build\PDW.lib" /MACHINE:X86 /SAFESEH ..\build\main.obj
+         ..\build\pdw.obj
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+         正在生成代码
+         已完成代码的生成
+         LaneDetect.vcxproj -> F:\Users\visual studio 2013\Projects\Microvision\PDW\build\..\build\PDW.exe
+     1>已完成生成项目“F:\Users\visual studio 2013\Projects\Microvision\PDW\build\LaneDetect.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.06
